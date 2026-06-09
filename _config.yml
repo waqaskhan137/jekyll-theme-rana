@@ -19,9 +19,9 @@ github:
   username: waqaskhan137
 
 social:
-  name: Rana Waqas
+  name: jekyll-theme-rana
   links:
-    - https://github.com/waqaskhan137
+    - https://github.com/waqaskhan137/jekyll-theme-rana
 
 theme_mode: # light | dark; empty follows system
 
