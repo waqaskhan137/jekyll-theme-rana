@@ -4,7 +4,7 @@ A reading-first Jekyll theme by [Rana Waqas](https://waqasrana.space). Posts ope
 distraction-free reading column set in Charter serif, with the site chrome out of the way.
 Based on [Chirpy] 7.5.0.
 
-Live example: [blog.waqasrana.space](https://blog.waqasrana.space)
+**Live demo:** [waqaskhan137.github.io/jekyll-theme-rana](https://waqaskhan137.github.io/jekyll-theme-rana/), built from this repo by the Pages workflow.
 
 ## What it changes over Chirpy
 

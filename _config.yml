@@ -1,0 +1,76 @@
+# Demo-site configuration for jekyll-theme-rana.
+# This file configures the GitHub Pages demo built from this repo's root.
+# It is NOT shipped in the gem (see jekyll-theme-rana.gemspec files list),
+# so it never affects sites consuming the theme.
+
+lang: en
+timezone: Asia/Karachi
+
+title: jekyll-theme-rana
+tagline: A reading-first Jekyll theme
+description: >-
+  Demo of jekyll-theme-rana: Charter serif posts, a distraction-free reading
+  mode, and Mermaid diagrams out of the box. Based on Chirpy.
+
+url: "https://waqaskhan137.github.io"
+baseurl: "/jekyll-theme-rana"
+
+github:
+  username: waqaskhan137
+
+social:
+  name: Rana Waqas
+  links:
+    - https://github.com/waqaskhan137
+
+theme_mode: # light | dark; empty follows system
+
+paginate: 10
+
+# Building the repo root directly (not via the theme gem), so plugins must be
+# listed explicitly; the gems come from the gemspec's runtime dependencies.
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
+  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - tools
+  - docs

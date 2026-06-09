@@ -1,6 +1,7 @@
-<!-- Reading mode: flag individual post pages so custom.css can hide the side panels.
-     Set synchronously in <head> (before paint) to avoid any flash of the sidebar. -->
-<script>if(location.pathname.indexOf('/posts/')===0)document.documentElement.classList.add('reading-mode');</script>
+<!-- Reading mode: flag individual post pages so the theme CSS can hide the side panels.
+     Set synchronously in <head> (before paint) to avoid any flash of the sidebar.
+     Baseurl-aware so it works on project pages (e.g. user.github.io/repo/posts/...). -->
+<script>if(location.pathname.indexOf('{{ site.baseurl }}/posts/')===0)document.documentElement.classList.add('reading-mode');</script>
 
 <!-- Brand alignment: DM Sans + Fira Code matching waqasrana.space -->
 <link rel="preload" as="style"

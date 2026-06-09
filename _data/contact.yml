@@ -1,0 +1,3 @@
+# Default sidebar contact icons. Override by creating _data/contact.yml in your site.
+- type: github
+  icon: "fa-brands fa-github"
