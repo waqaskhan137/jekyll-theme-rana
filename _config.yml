@@ -25,6 +25,8 @@ social:
 
 theme_mode: # light | dark; empty follows system
 
+avatar: /demo/avatar.svg
+
 paginate: 10
 
 # Building the repo root directly (not via the theme gem), so plugins must be

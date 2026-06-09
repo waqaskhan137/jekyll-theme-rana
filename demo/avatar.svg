@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Open book avatar">
+  <!-- demo-only avatar: not part of the theme gem -->
+  <rect width="512" height="512" rx="100" fill="#0f766e"/>
+
+  <!-- right page -->
+  <path d="M256 178 C 298 146, 362 140, 404 154 L404 350 C 362 338, 298 344, 256 376 Z"
+        fill="#f3efe7"/>
+  <!-- left page -->
+  <path d="M256 178 C 214 146, 150 140, 108 154 L108 350 C 150 338, 214 344, 256 376 Z"
+        fill="#fafaf9"/>
+  <!-- spine shadow -->
+  <path d="M256 178 L256 376" stroke="#d9d2c4" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- text lines, left page -->
+  <rect x="134" y="196" width="92" height="11" rx="5.5" fill="#bcd6d1"/>
+  <rect x="134" y="224" width="78" height="11" rx="5.5" fill="#bcd6d1"/>
+  <rect x="134" y="252" width="88" height="11" rx="5.5" fill="#bcd6d1"/>
+  <rect x="134" y="280" width="64" height="11" rx="5.5" fill="#bcd6d1"/>
+
+  <!-- text lines, right page -->
+  <rect x="288" y="196" width="88" height="11" rx="5.5" fill="#b3cfc9"/>
+  <rect x="288" y="224" width="94" height="11" rx="5.5" fill="#b3cfc9"/>
+  <rect x="288" y="252" width="70" height="11" rx="5.5" fill="#b3cfc9"/>
+
+  <!-- bookmark ribbon, draped over the right page -->
+  <path d="M330 118 L374 118 L374 236 L352 214 L330 236 Z" fill="#2dd4bf"/>
+  <path d="M330 118 L374 118 L374 132 L330 132 Z" fill="#26b8a5"/>
+</svg>
