@@ -1,8 +1,8 @@
 # jekyll-theme-rana
 
-A reading-first Jekyll theme. Posts open in a clean, distraction-free reading column set in
-Charter serif, with the site chrome out of the way. Based on [Chirpy] 7.5.0; Chirpy is a bird,
-Rana is the frog genus, this is the fork.
+A reading-first Jekyll theme by [Rana Waqas](https://waqasrana.space). Posts open in a clean,
+distraction-free reading column set in Charter serif, with the site chrome out of the way.
+Based on [Chirpy] 7.5.0.
 
 Live example: [blog.waqasrana.space](https://blog.waqasrana.space)
 
